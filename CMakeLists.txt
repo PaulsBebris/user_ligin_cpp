@@ -3,4 +3,4 @@ project(ulogincl)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ulogincl main.cpp src/CreateFile.cpp src/CreateFile.h)
+add_executable(ulogincl main.cpp src/CreateFile.cpp src/CreateFile.h src/FakeData.cpp src/FakeData.h)

@@ -6,7 +6,7 @@
 
 class CreateFile {
 public:
-    void static create_file(const std::string &file_path);
+    void static create_file(const std::string &file_path, std::string data[]);
 };
 
 

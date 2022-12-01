@@ -11,7 +11,6 @@ void CompareCredentials::create_msg(const std::string &str) {
   CompareCredentials::compare_msg = str;
 }
 
-
 bool CompareCredentials::compare_uname(std::string user_in) {
   // read from file
   std::string saved_pswd=" ";

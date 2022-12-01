@@ -5,8 +5,11 @@
 
 class FakeData {
 public:
+  // TODO encrypt decrypt password
   std::string users[USERS_COUNT];
-  explicit  FakeData(int users_count);
+  std::string passwords[USERS_COUNT];
+  void create_users();
+  void create_passwords();
 };
 
 #endif
